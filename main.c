@@ -2,7 +2,7 @@
 
 void swap(int *xp,int *yp)
  {
- int temp = *xp; //temp now has the balue of XP
+ int temp = *xp; //temp now has the value of XP
  *xp = *yp; //XP now has the value of YP
  *yp = temp; //YP now has the value of XP
  }
