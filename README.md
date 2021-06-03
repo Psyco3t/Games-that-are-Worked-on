@@ -1,2 +1,2 @@
-# BubbleSorting
-I can use this for reference
+# Handy stuff
+Algorythmns for reference
