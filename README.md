@@ -1,3 +1,2 @@
-# handy_algorythmns
-Stuff i need
-and stuff i find handy
+# BubbleSorting
+I can use this for reference
