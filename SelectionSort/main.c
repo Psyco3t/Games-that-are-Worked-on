@@ -9,12 +9,13 @@ void swap(int *a,int *b)
 
 void selectionSort(int array[],int n)
 {
- for (int select_num = 0;select_num < n - 1;select_num++)
+ for (int select_num = 0;select_num < n - 1;select_num++) //select_num i actually the step number as the cycle iterates through the array theres step1 step 2 and step3 at the end 
+  //of every step the swap function is called to swap the smallest and largest number
  {
   int min_num = select_num;
-  for (int i = select_num + 1;i < n;i++)
+  for (int i = select_num + 1;i < n;i++) //cycles through array
   {
-   if (array[i] < array[min_num])
+   if (array[i] < array[min_num]) //checks if indexed number is smaller than the last smallest number indexed if it is true smallest number is replaced by the indexed number
    {
     min_num = i;
    }
